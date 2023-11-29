@@ -1,1 +1,9 @@
 GET http://localhost:3002/todos
+
+###
+
+POST http://localhost:3002/todo/new
+Content-Type: application/json
+{
+    "text":"Drink water"
+}
